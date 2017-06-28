@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
+
+.box:hover{
+background-color: coral;
+display: block; text-decoration: none;
+}
+
+.clicked {
+    text-decoration-style: none; color: red;
+}
