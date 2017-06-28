@@ -9,6 +9,11 @@ button.addEventListener ("click", function() {
 });
 
 // text
+
+$(document).click(function (event) {
+  $(event.target).css("color", "red");
+});
+
 var name = lance
 $(document).on("click", function(e){
     if (e.click) {
